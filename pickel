@@ -1,0 +1,5 @@
+import pickel
+pickel_out=open(''hdp.pkl','wb')
+pickel.dump(model,pickel_out)
+pickel_in=open(hdp.pkl,'rb')
+model=pickel.load(pickel_in)
